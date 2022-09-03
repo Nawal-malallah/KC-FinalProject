@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.enlightenme">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EnlightenMe"
+        tools:targetApi="31">
+        <activity
+            android:name=".PTSD_symp_intensity"
+            android:exported="false" />
+        <activity
+            android:name=".PTSD_symp_chanReaction"
+            android:exported="false" />
+        <activity
+            android:name=".PTSD_symp_chanThinkMood"
+            android:exported="false" />
+        <activity
+            android:name=".PYSD_symp_avoidance"
+            android:exported="false" />
+        <activity
+            android:name=".PTSD_symp_intrusive"
+            android:exported="false" />
+        <activity
+            android:name=".PTSD_seeDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".PTSD_symptoms"
+            android:exported="false" />
+        <activity
+            android:name=".PTSD_overview"
+            android:exported="false" />
+        <activity
+            android:name=".PD_seeDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".PD_symptoms"
+            android:exported="false" />
+        <activity
+            android:name=".PD_overview"
+            android:exported="false" />
+        <activity
+            android:name=".GAD_seeDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".GAD_sympKidTeen"
+            android:exported="false" />
+        <activity
+            android:name=".GAD_symptoms"
+            android:exported="false" />
+        <activity
+            android:name=".GAD_overview"
+            android:exported="false" />
+        <activity
+            android:name=".Dep_emergencyHelp"
+            android:exported="false" />
+        <activity
+            android:name=".Dep_seeDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".Dep_sympAdults"
+            android:exported="false" />
+        <activity
+            android:name=".Dep_sympKidTeen"
+            android:exported="false" />
+        <activity
+            android:name=".Dep_symptoms"
+            android:exported="false" />
+        <activity
+            android:name=".Dep_overview"
+            android:exported="false" />
+        <activity
+            android:name=".Dep_Buttons"
+            android:exported="false" />
+        <activity
+            android:name=".CommonMentalprob_Buttons"
+            android:exported="false" />
+        <activity
+            android:name=".MH_mmsMHproblems"
+            android:exported="false" />
+        <activity
+            android:name=".MHprevention"
+            android:exported="false" />
+        <activity
+            android:name=".MHcomplications"
+            android:exported="false" />
+        <activity
+            android:name=".MHriskFactors"
+            android:exported="false" />
+        <activity
+            android:name=".MHhelpingAlovedOne"
+            android:exported="false" />
+        <activity
+            android:name=".MHwhenToSeeADoctor"
+            android:exported="false" />
+        <activity
+            android:name=".MHcauses"
+            android:exported="false" />
+        <activity
+            android:name=".MHsymptoms"
+            android:exported="false" />
+        <activity
+            android:name=".MHoverview"
+            android:exported="false" />
+        <activity
+            android:name=".BlueButtons"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
