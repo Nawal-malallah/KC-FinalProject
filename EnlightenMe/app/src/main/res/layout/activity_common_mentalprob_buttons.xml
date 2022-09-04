@@ -6,4 +6,50 @@
     android:layout_height="match_parent"
     tools:context=".CommonMentalprob_Buttons">
 
+    <Button
+        android:id="@+id/dep"
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:text="Depression"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/anx"
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:text="Generalised anxiety disorder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dep" />
+
+    <Button
+        android:id="@+id/panic"
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:text="Panic disorder"
+        app:layout_constraintBottom_toTopOf="@+id/ptsd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anx" />
+
+    <Button
+        android:id="@+id/ptsd"
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp"
+        android:text="Post-traumatic stress disorder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

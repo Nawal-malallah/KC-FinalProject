@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class PYSD_symp_avoidance extends AppCompatActivity {
+public class PTSD_buttons extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pysd_symp_avoidance);
+        setContentView(R.layout.activity_ptsd_buttons);
     }
 }
