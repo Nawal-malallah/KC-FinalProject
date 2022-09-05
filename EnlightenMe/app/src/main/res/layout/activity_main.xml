@@ -8,11 +8,11 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/yellowHead"
         android:layout_width="211dp"
         android:layout_height="202dp"
         android:layout_marginTop="32dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/enlighten"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -20,39 +20,45 @@
         app:srcCompat="@drawable/logo" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/enlighten"
         android:layout_width="244dp"
         android:layout_height="53dp"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="28dp"
         android:text="Enlighten Me"
         android:textSize="40dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/warning"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/warning"
         android:layout_width="294dp"
         android:layout_height="243dp"
+        android:layout_marginTop="376dp"
         android:text="Warning: the person who made this does not have a degree in mental health. All the information was taken from Mayo clinic. this was made with the intent to help validate and find basic information about mental health."
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="363dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/agree"
         android:layout_width="230dp"
         android:layout_height="58dp"
+        android:layout_marginTop="23dp"
         android:background="#52B788"
         android:backgroundTint="#52B788"
         android:shadowColor="#52B788"
         android:text="I understand and I am ready to start"
         app:iconTint="#52B788"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/warning"
+        app:layout_constraintVertical_bias="0.068"
         app:rippleColor="#52B788"
         app:strokeColor="#52B788"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="629dp" />
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>

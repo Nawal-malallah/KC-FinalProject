@@ -6,4 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".Dep_Buttons">
 
+    <Button
+        android:id="@+id/depOV"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:text="Overview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/depSym"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:text="Symptoms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/depOV" />
+
+    <Button
+        android:id="@+id/depKidTeen"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:text="Depression symptoms in children and teens"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/depSym" />
+
+    <Button
+        android:id="@+id/depAdult"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:text="Depression symptoms in older adults"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/depKidTeen" />
+
+    <Button
+        android:id="@+id/depDoc"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:text="When to see a doctor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/depAdult" />
+
+    <Button
+        android:id="@+id/depEmergency"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:text="When to get emergency help"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/depDoc"
+        app:layout_constraintVertical_bias="0.407" />
 </androidx.constraintlayout.widget.ConstraintLayout>
