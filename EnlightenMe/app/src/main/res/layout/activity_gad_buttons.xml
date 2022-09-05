@@ -6,4 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".GAD_buttons">
 
+    <Button
+        android:id="@+id/anxOV"
+        android:layout_width="235dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:text="Overview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/anxSym"
+        android:layout_width="235dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:text="Symptoms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anxOV" />
+
+    <Button
+        android:id="@+id/anxKidTeen"
+        android:layout_width="235dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:text="Symptoms in children and teenagers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anxSym" />
+
+    <Button
+        android:id="@+id/anxDoc"
+        android:layout_width="235dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:text="When to see a doctor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/anxKidTeen"
+        app:layout_constraintVertical_bias="0.208" />
 </androidx.constraintlayout.widget.ConstraintLayout>
