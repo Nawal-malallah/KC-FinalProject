@@ -6,4 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".PTSD_buttons">
 
+    <Button
+        android:id="@+id/PTSDov"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="116dp"
+        android:text="Overview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/PTSDsym"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="120dp"
+        android:text="Symptoms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PTSDov" />
+
+    <Button
+        android:id="@+id/PTSDdoc"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="120dp"
+        android:text="When to see a doctor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PTSDsym"
+        app:layout_constraintVertical_bias="0.076" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
