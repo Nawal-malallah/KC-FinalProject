@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".GAD_overview_3">
 
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="379dp"
+        android:layout_height="698dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/GADovThree" />
 </androidx.constraintlayout.widget.ConstraintLayout>

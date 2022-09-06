@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".GAD_symptoms_2">
 
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="371dp"
+        android:layout_height="658dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219"
+        app:srcCompat="@drawable/GADsymTwo" />
+
+    <Button
+        android:id="@+id/GADsymNxt2"
+        android:layout_width="171dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="40dp"
+        android:text="next page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
