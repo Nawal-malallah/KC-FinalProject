@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PD_seeDoctor">
+    tools:context=".PD_symptoms_2">
 
     <ImageView
-        android:id="@+id/imageView26"
-        android:layout_width="360dp"
-        android:layout_height="694dp"
+        android:id="@+id/imageView24"
+        android:layout_width="365dp"
+        android:layout_height="695dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/PDdoc" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/PDsymOne" />
 </androidx.constraintlayout.widget.ConstraintLayout>
