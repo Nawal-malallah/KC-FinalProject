@@ -9,11 +9,14 @@
 
     <Button
         android:id="@+id/PDov"
-        android:layout_width="220dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="116dp"
+        android:layout_width="229dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="#48BFE3"
         android:text="Overview"
+        android:textColor="#0C0101"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -21,8 +24,10 @@
         android:id="@+id/PDsym"
         android:layout_width="220dp"
         android:layout_height="80dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#48BFE3"
         android:text="Symptoms"
+        android:textColor="#0C0101"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PDov" />
@@ -31,11 +36,41 @@
         android:id="@+id/PDdoc"
         android:layout_width="220dp"
         android:layout_height="80dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#48BFE3"
         android:text="When to see a doctor"
+        android:textColor="#0B0101"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PDsym"
-        app:layout_constraintVertical_bias="0.076" />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="1600dp"
+        android:layout_height="1813dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517"
+        app:srcCompat="@drawable/black" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/spaceguy"
+        android:layout_width="536dp"
+        android:layout_height="258dp"
+        android:src="@drawable/spaceguy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913">
+
+    </pl.droidsonroids.gif.GifImageView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

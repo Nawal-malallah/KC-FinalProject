@@ -6,12 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".GAD_buttons">
 
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/breath"
+        android:layout_width="391dp"
+        android:layout_height="168dp"
+        android:layout_marginBottom="612dp"
+        android:src="@drawable/breath"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <Button
         android:id="@+id/anxOV"
         android:layout_width="235dp"
         android:layout_height="80dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="144dp"
+        android:backgroundTint="#72EFDD"
         android:text="Overview"
+        android:textColor="#100101"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,8 +34,10 @@
         android:id="@+id/anxSym"
         android:layout_width="235dp"
         android:layout_height="80dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#72EFDD"
         android:text="Symptoms"
+        android:textColor="#020000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/anxOV" />
@@ -30,8 +46,10 @@
         android:id="@+id/anxKidTeen"
         android:layout_width="235dp"
         android:layout_height="80dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#72EFDD"
         android:text="Symptoms in children and teenagers"
+        android:textColor="#130101"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/anxSym" />
@@ -40,11 +58,13 @@
         android:id="@+id/anxDoc"
         android:layout_width="235dp"
         android:layout_height="80dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#72EFDD"
         android:text="When to see a doctor"
+        android:textColor="#090101"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/anxKidTeen"
-        app:layout_constraintVertical_bias="0.208" />
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

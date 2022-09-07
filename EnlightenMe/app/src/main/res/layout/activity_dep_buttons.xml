@@ -7,16 +7,29 @@
     android:backgroundTint="#DEABFF"
     tools:context=".Dep_Buttons">
 
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/nightmountian"
+        android:layout_width="424dp"
+        android:layout_height="750dp"
+        android:src="@drawable/nightmountain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </pl.droidsonroids.gif.GifImageView>
+
+
     <Button
         android:id="@+id/depOV"
         android:layout_width="270dp"
         android:layout_height="80dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="#DEABFF"
         android:text="Overview"
         android:textColor="#07010B"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -81,5 +94,5 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/depDoc"
-        app:layout_constraintVertical_bias="0.407" />
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
