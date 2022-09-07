@@ -28,9 +28,9 @@ public class BlueButtons extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent prev = new Intent(BlueButtons.this , MHprevention.class);
+                Intent prev_ = new Intent(BlueButtons.this , MHprevention.class);
 
-                startActivity(prev);
+                startActivity(prev_);
 
             }
         });
@@ -39,9 +39,9 @@ public class BlueButtons extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent MIov = new Intent(BlueButtons.this , MHoverview.class);
+                Intent MI_ov = new Intent(BlueButtons.this , MHoverview.class);
 
-                startActivity(MIov);
+                startActivity(MI_ov);
 
             }
         });
@@ -49,9 +49,9 @@ public class BlueButtons extends AppCompatActivity {
         MIsym.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent MIsym = new Intent(BlueButtons.this , MHsymptoms.class);
+                Intent MI_sym = new Intent(BlueButtons.this , MHsymptoms.class);
 
-                startActivity(MIsym);
+                startActivity(MI_sym);
 
             }
         });
@@ -60,9 +60,9 @@ public class BlueButtons extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent MIdoc = new Intent(BlueButtons.this , MHwhenToSeeADoctor.class);
+                Intent MI_doc = new Intent(BlueButtons.this , MHwhenToSeeADoctor.class);
 
-                startActivity(MIdoc);
+                startActivity(MI_doc);
 
             }
         });
@@ -71,9 +71,9 @@ public class BlueButtons extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent MIhelpL = new Intent(BlueButtons.this , MHhelpingAlovedOne.class);
+                Intent MI_helpL = new Intent(BlueButtons.this , MHhelpingAlovedOne.class);
 
-                startActivity(MIhelpL);
+                startActivity(MI_helpL);
             }
         });
 
@@ -81,9 +81,9 @@ public class BlueButtons extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent MIrf = new Intent(BlueButtons.this , MHriskFactors.class);
+                Intent MI_rf = new Intent(BlueButtons.this , MHriskFactors.class);
 
-                startActivity(MIrf);
+                startActivity(MI_rf);
             }
         });
 
@@ -91,9 +91,9 @@ public class BlueButtons extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent MImms = new Intent(BlueButtons.this , MH_mmsMHproblems.class);
+                Intent MI_mms = new Intent(BlueButtons.this , MH_mmsMHproblems.class);
 
-                startActivity(MImms);
+                startActivity(MI_mms);
             }
         });
 

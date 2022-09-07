@@ -20,9 +20,10 @@ public class GAD_overview_2 extends AppCompatActivity {
           @Override
           public void onClick(View view) {
 
-              Intent GADovNxt = new Intent(GAD_overview_2.this , GAD_overview_3.class);
+              Intent GADovNxt_2 = new Intent(GAD_overview_2.this , GAD_overview_3.class);
 
-              startActivity(GADovNxt2);
+              startActivity(GADovNxt_2);
+
           }
       });
     }
