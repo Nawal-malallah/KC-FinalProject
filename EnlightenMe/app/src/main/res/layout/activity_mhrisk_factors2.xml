@@ -8,11 +8,13 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="420dp"
-        android:layout_height="850dp"
+        android:layout_width="380dp"
+        android:layout_height="719dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377"
         app:srcCompat="@drawable/mh_rf_two" />
 </androidx.constraintlayout.widget.ConstraintLayout>
