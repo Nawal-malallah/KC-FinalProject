@@ -16,5 +16,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.372"
-        app:srcCompat="@drawable/PTSDdoc" />
+        app:srcCompat="@drawable/ptsd_doc" />
 </androidx.constraintlayout.widget.ConstraintLayout>

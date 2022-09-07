@@ -14,5 +14,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/MHrf_ptTwo" />
+        app:srcCompat="@drawable/mh_rf_two" />
 </androidx.constraintlayout.widget.ConstraintLayout>

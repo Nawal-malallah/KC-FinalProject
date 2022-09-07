@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.05"
-        app:srcCompat="@drawable/PTSDsymOne" />
+        app:srcCompat="@drawable/ptsd_sym_one" />
 
     <Button
         android:id="@+id/PTSDsymNxt"

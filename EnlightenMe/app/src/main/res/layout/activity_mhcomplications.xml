@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MHcomplications">
 
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="369dp"
+        android:layout_height="702dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mh_comp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

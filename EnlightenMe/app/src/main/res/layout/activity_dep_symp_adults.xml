@@ -16,5 +16,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.571"
-        app:srcCompat="@drawable/depAdult" />
+        app:srcCompat="@drawable/dep_adult" />
 </androidx.constraintlayout.widget.ConstraintLayout>
