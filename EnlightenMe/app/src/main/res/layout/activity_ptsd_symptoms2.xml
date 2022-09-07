@@ -4,26 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PTSD_symptoms">
+    tools:context=".PTSD_symptoms_2">
 
     <ImageView
-        android:id="@+id/imageView36"
-        android:layout_width="359dp"
-        android:layout_height="652dp"
+        android:id="@+id/imageView35"
+        android:layout_width="385dp"
+        android:layout_height="714dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05"
-        app:srcCompat="@drawable/PTSDsymOne" />
-
-    <Button
-        android:id="@+id/PTSDsymNxt"
-        android:layout_width="134dp"
-        android:layout_height="56dp"
-        android:layout_marginBottom="16dp"
-        android:text="next page"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:srcCompat="@drawable/PTSDsymTwo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
