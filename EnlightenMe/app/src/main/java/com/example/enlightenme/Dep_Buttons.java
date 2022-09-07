@@ -26,7 +26,7 @@ public class Dep_Buttons extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent depOV = new Intent(Dep_Buttons.this , Dep_Buttons.class);
+                Intent depOV = new Intent(Dep_Buttons.this , Dep_overview.class);
 
                 startActivity(depOV);
             }
