@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".PD_symptoms">
 
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="356dp"
+        android:layout_height="685dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/PDsymOne" />
+
+    <Button
+        android:id="@+id/PDsymNxt"
+        android:layout_width="137dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="24dp"
+        android:text="Next page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
