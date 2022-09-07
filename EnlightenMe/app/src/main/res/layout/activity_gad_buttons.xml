@@ -11,7 +11,7 @@
         android:id="@+id/breath"
         android:layout_width="391dp"
         android:layout_height="168dp"
-        android:layout_marginBottom="572dp"
+        android:layout_marginBottom="544dp"
         android:src="@drawable/breath"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,7 @@
         android:id="@+id/anxOV"
         android:layout_width="235dp"
         android:layout_height="80dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="192dp"
         android:backgroundTint="#72EFDD"
         android:text="Overview"
         android:textColor="#100101"
@@ -55,15 +55,14 @@
 
     <Button
         android:id="@+id/anxDoc"
-        android:layout_width="235dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="70dp"
+        android:layout_width="239dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="44dp"
         android:backgroundTint="#72EFDD"
         android:text="When to see a doctor"
         android:textColor="#090101"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/anxKidTeen"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/anxKidTeen" />
 </androidx.constraintlayout.widget.ConstraintLayout>
