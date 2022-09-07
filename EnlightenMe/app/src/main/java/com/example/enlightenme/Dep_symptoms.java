@@ -21,6 +21,8 @@ public class Dep_symptoms extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent depSymnxt = new Intent(Dep_symptoms.this , Dep_symptoms_2.class);
+
+                startActivity(depSymnxt);
             }
         });
     }
